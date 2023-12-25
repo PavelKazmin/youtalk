@@ -1,0 +1,54 @@
+@media screen and (min-width: 769px) {
+	.burger {
+		display: none;
+	}
+}
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+	.header {
+		padding-left: 32px;
+		padding-right: 32px;
+	}
+	.header .header__list {
+		gap: 16px;
+	}
+	.header .header__logo {
+		margin-right: 32px;
+	}
+	.header .header__btn {
+		margin-left: 20px;
+	}
+}
+@media screen and (max-width: 768px) and (min-width: 415px) {
+	.header {
+		padding-left: 20px;
+		padding-right: 18px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.header .header__list {
+		display: none;
+	}
+		.header .header__btn {
+		display: none;
+	}
+}
+@media screen and (max-width: 414px) and (min-width: 321px) {
+	.header {
+		padding-left: 24px;
+		padding-right: 16px;
+		min-height: 72px;
+	}
+}
+@media screen and (max-width: 414px) {
+	.header__logo_youtalk-logo {
+		max-width: 48px;
+		height: 34px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.header {
+		padding-left: 16px;
+		padding-right: 8px;
+		min-height: 56px;
+	}
+}
